@@ -14,7 +14,7 @@ from pathlib import Path
 from decouple import config
 import environ
 
-env= environ.Env()
+env = environ.Env()
 environ.Env.read_env()
 
 
@@ -30,7 +30,7 @@ SECRET_KEY = 'sakfdjhksdhlfhalsfdlas'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
